@@ -17,6 +17,9 @@ bypass.addEventListener("click", async () => {
 // The body of this function will be execuetd as a content script inside the
 // current page
 function generateBypassLink(url) {
+
+  //   let new_url = "http://archive.is/newest/"+url;
+  
   // check if the url is a medium article
   let new_url = "https://12ft.io/"+url;
   if(url.includes("medium.com")){
